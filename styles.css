@@ -45,3 +45,14 @@ img {
  flex-flow: wrap;
  justify-content: center;
 }
+
+#about {
+    background: url('img/girlincar.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 1.875rem;
+}
