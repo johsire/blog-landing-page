@@ -49,3 +49,11 @@ img {
     color: white;
     padding: 1.875rem;
 }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border-radius: .25rem;
+    padding: 1.25rem;
+}
