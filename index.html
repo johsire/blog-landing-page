@@ -105,7 +105,7 @@
         <li data-target="#carousel-home" data-slide-to="1"></li>
         <li data-target="#carousel-home" data-slide-to="2"></li>
       </ol>
-      <div class="carousel-inner" role="listbox">
+      <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="img/woman-camera.jpg" alt="Woman taking picture with a
               camera">
@@ -159,11 +159,11 @@
           <div class="col-sm-12">
             <div class="card-group">
               <div class="card">
-                <div class="card-block">
+                <div class="card-header">
                   <h4 class="card-title">Strategy &amp; Planning</h4>
                   <h6 class="card-subtitle">Support card subtitle</h6>
                   <img src="img/chalkboard.jpg" alt="a chalkboard">
-                  <div class="card-block">
+                  <div class="card-header">
                     <p class="card-text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Ipsum ullam sapiente quasi so
@@ -178,11 +178,11 @@
               </div>
 
               <div class="card">
-                <div class="card-block">
+                <div class="card-header">
                   <h4 class="card-title">Creative &amp; Design</h4>
                   <h6 class="card-subtitle">Support card subtitle</h6>
                   <img src="img/working.jpg" alt="working on a laptop">
-                  <div class="card-block">
+                  <div class="card-header">
                     <p class="card-text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Ipsum ullam sapiente quasi
@@ -197,12 +197,12 @@
               </div>
 
               <div class="card">
-                <div class="card-block">
+                <div class="card-header">
                   <h4 class="card-title">Programming &amp; Technical</h4>
                   <h6 class="card-subtitle">Support card subtitle</h6>
                   <img src="img/programming.jpg" alt="fingers typing on a
                       keyboard">
-                  <div class="card-block">
+                  <div class="card-header">
                     <p class="card-text">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Ipsum ullam sapiente quasi
@@ -246,9 +246,9 @@
             </p>
 
             <h5>Follow me on the web!</h5>
-            <a href="" class="btn btn-sm btn-outline-secondary">twitter</a>
-            <a href="" class="btn btn-sm btn-outline-secondary">facebook</a>
-            <a href="" class="btn btn-sm btn-outline-secondary">youtube</a>
+            <a href="" class="btn btn-sm btn-outline-light">twitter</a>
+            <a href="" class="btn btn-sm btn-outline-light">facebook</a>
+            <a href="" class="btn btn-sm btn-outline-light">youtube</a>
           </div>
         </div>
       </div>
@@ -333,8 +333,9 @@
                 <img class="card-img" src="img/computer.jpg" alt="A desktop
                     with a computer on it">
               </div>
-              <div class="card text-light p-3 text-right bg-warning">
-                <blockquote class="blockquote mb-0">
+              <div class="card text-white p-3 text-right bg-warning">
+                <div class="card-body">
+                <blockquote>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Integer posuere erat a ante.</p>
                   <footer class="blockquote-footer">
@@ -345,8 +346,8 @@
                   </footer>
                 </blockquote>
               </div>
-              <div class="card">
-                <div class="card-body">
+              </div>
+              <div class="card card-body text-sm-center">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting
                     text below as a natural lead-in to
@@ -355,7 +356,6 @@
                     action.</p>
                   <p class="card-text"><small class="text-muted">Last updated
                       3 mins ago</small></p>
-                </div>
               </div>
             </div>
             <!-- Card-Column Wrapper End ---------------------------- -->
@@ -363,8 +363,8 @@
             <hr>
 
             <!-- Pagination Section Star ---------------------------- -->
-            <nav class="text-sm-center">
-              <ul class="pagination">
+            <nav>
+              <ul class="pagination justify-content-center">
                 <li class="page-item">
                   <a class="page-link" href="#" aria-label="Previous">
                     <span aria-hidden="true">&laquo;</span>
@@ -393,7 +393,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3">
-          <p>uncopyright 2019.</p>
+          <p>uncopyright. 2019</p>
           <p>coded by <a href="https://johsire.github.io/portfolio/" target="_blank">JohSire</a></p>
         </div>
         <div class="col-sm-3">
@@ -424,18 +424,16 @@
   </footer>
   <!-- Footer Section End ---------------------------- -->
 
-  <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
   </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
   </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
 
 </body>
-
 </html>
